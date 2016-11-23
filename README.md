@@ -24,8 +24,16 @@ Good morning speaker
 ```
 https://www.raspberrypi.org/downloads/noobs/ 
 ```
-2. Install BlueZ5 and Pulseaudio
+2. Install BlueZ5, Pulseaudio and mplayer
 ```
 https://github.com/davidedg/NAS-mod-config/blob/master/bt-sound/bt-sound-Bluez5_PulseAudio5.txt
 ```
 or use this copy
+```
+To be added
+```
+
+3. Make pulseaudio start when boot
+```
+https://github.com/davidedg/NAS-mod-config/blob/master/bt-sound/bt-sound-Bluez5_PulseAudio5.txt
+```
