@@ -26,6 +26,8 @@ Good morning speaker
   ```
 
 2. Install BlueZ5, Pulseaudio and mplayer
+  - Try to follow all steps in below link to get Pulseaudio run as system-wide application. 
+  Don't care that pavucontrol may not catch the alsa, if you already install pavucontrol before.
   ```
   https://github.com/davidedg/NAS-mod-config/blob/master/bt-sound/bt-sound-Bluez5_PulseAudio5.txt
   ```
@@ -45,6 +47,11 @@ Good morning speaker
   ```
   mplayer *.mp3 -ao alsa
   ```
+  or 
+  ```
+  mplayer *.mp3 -ao pulse
+  ```
+  
   
 6. Try to download file from Google Drive from python file
 
