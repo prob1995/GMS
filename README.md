@@ -45,15 +45,22 @@ Good morning speaker
   ```
   mplayer *.mp3 -ao alsa
   ```
+  
 6. Try to download file from Google Drive from python file
 
-7. Set python script run in background when boot
+7. Install GrovePi libraries
+  ```
+  https://www.dexterindustries.com/GrovePi/get-started-with-the-grovepi/setting-software/
+  ```
+  
+8. Set python script run in background when boot
   - Add below in etc/rc.local
   ```
-  /usr/bin/python /home/pi/Desktop/blah.py & in etc/rc.loacal
+  /usr/bin/python /home/pi/Desktop/blah.py &
   ```
-  ```
-  Reference:
-  http://www.linuxquestions.org/questions/linux-newbie-8/how-to-run-mplayer-in-background-with-command-line-879090/
-  https://www.raspberrypi.org/forums/viewtopic.php?f=31&t=43509
-  ```
+  
+  
+Reference:
+- http://www.linuxquestions.org/questions/linux-newbie-8/how-to-run-mplayer-in-background-with-command-line-879090/
+- https://www.raspberrypi.org/forums/viewtopic.php?f=31&t=43509
+ 
